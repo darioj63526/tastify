@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tastify</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css" />
+    
+  </head>
+  <body>
+    
+<div class="offcanvas offcanvas-top" id="login-page">
+  <button class="btn border-0" data-bs-toggle="offcanvas" data-bs-dismiss="#">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+  <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+</svg>
+  </button>
+  <div class="offcanvas-body">
+    <h2 class="glow-text">Tastify Shop</h2>
+      <div class="login-body">
+        <div class="mt-3">
+          <h3 class="login-title p-3">LOGIN</h3>
+        </div>
+  <div class="form-group">
+   <input type="text"class="form-control p-3 m-3 mt-3" placeholder="User Name" style="width: 350px;">
+      <input type="email" class="form-control p-3 m-3" placeholder="Enter Email"  style="width: 350px;">
+      <a href="#eee"type="button" class="btn btn-danger m-3 p-2 ms-5" style="width: 70%;">Login</a>
+       <p class="m-3">New to Tastify ? <a href=""data-bs-toggle="offcanvas"data-bs-target="#register-page">Register</a> </p>
+    </div>
+  </div>
+      </div>
+  </div>
+
+
+
+
+
+<div class="offcanvas offcanvas-end" id="register-page">
+  <button class="btn border-0" data-bs-toggle="offcanvas" data-bs-dismiss="#">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+  <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+</svg>
+  </button>
+  <div class="offcanvas-body">
+    <h2 class="glow-text">Tastify Shop</h2>
+      <div class="register-body">
+        <div class="mt-3">
+          <h3 class="register-title p-3">REGISTER</h3>
+        </div>
+  <div class="form-group">
+   <input type="text"class="form-control p-3 m-3 mt-3" placeholder="First Name" style="width: 350px;">
+   <input type="text"class="form-control p-3 m-3 mt-3" placeholder="Last Name" style="width: 350px;">
+      <input type="email" class="form-control p-3 m-3" placeholder="Enter Email"  style="width: 350px;">
+      
+      <input type="password" class="form-control p-3 m-3" placeholder="Enter Password"  style="width: 350px;">
+      <input type="p" class="form-control p-3 m-3" placeholder="Confirm Password"  style="width: 350px;">
+
+      <a href="#eee"type="button" class="btn btn-danger m-3 p-2 ms-5" style="width: 70%;">Register</a>
+     
+    </div>
+  </div>
+      </div>
+  </div>
+
+
+
+
+
+<div class="offcanvas offcanvas-start" id="sidebar">
+  <button class="btn border-0" data-bs-toggle="offcanvas" data-bs-dismiss="#sidebar">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+  <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+</svg>
+  </button>
+  <div class="offcanvas-body">
+    <h2 class="glow-text">Tastify Shop</h2>
+      <li class="mt-5"><a href="#Hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+  </div>
+</div>
+<section id="Hero">
+  <div class="hero">
+    <button class="btn border-0 mt-3" data-bs-toggle="offcanvas"data-bs-target="#sidebar" id="hero-btn">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5"/>
+</svg>
+</button>
+    <div class="hero-text">
+      <h3 class="">Crave.Taste.Repeat</h3>
+       <h2 class="glow">Tastify Shop</h2>
+      <a href=""data-bs-toggle="offcanvas"data-bs-target="#login-page"><button class="btn btn-danger ps-3 pe-3 mt-3">Login</button></a> 
+    </div>
+    
+  </div>
+  <div class="divider"></div>
+</section>
+<section>
+  <div class="Logo-text mt-4">
+    <h2>WHY US ?</h2>
+  </div>
+  <div class="container-fluid">
+  
+  <div class="row"id=section_1>
+    <!-- box-1 -->
+<div class="col-sm-12 col-md-6 mt-5 ms-2.5 box-1" >
+     
+      <h3 class="text-center p-3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gem me-3" viewBox="0 0 16 16" style="color: red;">
+  <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6zm11.386 3.785-1.806-2.41-.776 2.413zm-3.633.004.961-2.989H4.186l.963 2.995zM5.47 5.495 8 13.366l2.532-7.876zm-1.371-.999-.78-2.422-1.818 2.425zM1.499 5.5l5.113 6.817-2.192-6.82zm7.889 6.817 5.123-6.83-2.928.002z"/>
+</svg>Quality Foods</h3>
+<p class="p-3">
+At Tastify,We serve only the best—fresh, hygienic, and flavorful meals made with love. Every bite is crafted to delight your taste buds and ensure a premium food experience you can trust</p>
+  </div>
+<!-- box-2 -->
+   <div class="col-sm-12 col-md-6 mt-5 ms-2.5 box-2">
+     
+      <h3 class="text-center p-3  Fast Delivery">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16"  style="color: red;">
+  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+</svg>
+</svg>Fast Delivery</h3>
+<p class="p-3">
+Enjoy your favorite dishes delivered hot and fast to your doorstep. With our efficient delivery system, your cravings are satisfied in no time—because we know how important time and taste are.</p>
+  </div>
+  <!-- box-3 -->
+   <div class="col-sm-12 col-md-6 mt-5 ms-2.5 box-3">
+     
+      <h3 class="text-center p-3  Fast Delivery">
+     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16" style="color: red;">
+  <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"/>
+</svg>
+
+</svg>24/7 Support</h3>
+<p class="p-3">
+Our friendly customer care team is here to help you anytime. Prompt support, quick solutions, and a smile—because your satisfaction is our top priority.</p>
+  </div>
+<!-- box-4 -->
+
+<div class="col-sm-12 col-md-6 mt-5 ms-2.5 box-3">
+     
+      <h3 class="text-center p-3  Fast Delivery">
+     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16" style="color: red;">
+  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+</svg>
+
+</svg>Trusted Service</h3>
+<p class="p-3">
+With years of experience and countless happy customers, we pride ourselves on delivering consistent quality and reliability. You can count on us—every order, every time. Your trust is our strength.</p>
+  </div>
+  </div>
+
+</section>
+
+<div class="section" id="about">
+  <div class="card mt-5">
+    <div class="row">
+      <div class="col-xl-6 order-xl-1 order-1 cardp">
+        <img src="Assets/professional-cook.jpg" alt="" class="img-fluid h-70 w-100 object-fit-cover"id="about-img" >
+      </div>
+      <div class="col-xl-6 order-xl-2 order-2  cardl">
+        <h3 class="card-title text-center text-danger mt-4">ABOUT US </h3>
+        <p class="card-text text-dark text-start p-3">
+
+Welcome to Tastify – your trusted companion in the world of flavors, freshness, and unforgettable food experiences. We’re not just a food service; we are a passionate community of food lovers committed to delivering premium quality meals that bring joy, comfort, and satisfaction.
+
+At Tastify, we believe that food is much more than a basic necessity. It's a universal language that connects people, sparks memories, and creates moments of happiness. Whether you’re enjoying a quick meal at your desk, hosting a family dinner, or simply treating yourself to something delicious, our goal is to be a part of those moments and make them special with every dish we serve.
+
+Founded with the vision of transforming the way people experience food delivery, Tastify focuses on three core principles: quality, speed, and trust. Our team of expert chefs and culinary professionals bring years of experience and creativity into every recipe, using only fresh, locally sourced, and hygienically handled ingredients. Each dish is carefully curated to maintain authentic taste,and a presentation that reflects our love for good food. 
+<b>we don’t just serve food. We serve joy.</b> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="gallery">
+  <div class="gal-text ">
+    <h2 class="text-center text-danger m-4">GALLERY</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-4 mt-3">
+<img src="Assets/appetizers/ella-olsson-6UxD0NzDywI-unsplash.jpg" alt="" sizes="" srcset="" class="img-fluid gallery-img" loading="lazy">
+    </div> 
+    <div class="col-md-4 mt-3">
+<img src="Assets/appetizers/zoshua-colah-WVoLfiKbYBQ-unsplash.jpg" alt="" srcset="" class="img-fluid gallery-img" loading="lazy">
+    </div>
+    <div class="col-md-4 mt-3">
+<img src="Assets/desserts/shivansh-sethi-dKT6Q7q2UKs-unsplash.jpg" alt="" srcset="" class="img-fluid gallery-img" loading="lazy">
+    </div> 
+   <div class="col-md-4 mt-3">
+<img src="Assets/beverages/alex-lvrs-HDjExSGuWUw-unsplash.jpg" alt="" sizes="" srcset="" class="img-fluid gallery-img" loading="lazy">
+    </div>  
+    <div class="col-md-4 mt-3">
+<img src="Assets/appetizers/pexels-valeriya-1639556.jpg" alt="" srcset="" class="img-fluid gallery-img" loading="lazy">
+    </div>
+    <div class="col-md-4 mt-3">
+<img src="Assets/appetizers/farhad-ibrahimzade-07RKITgmScQ-unsplash.jpg" alt="" srcset="" class="img-fluid gallery-img" loading="lazy">
+    </div>
+    <div class="col-md-4 mt-3">
+<img src="Assets/desserts/serghei-savchiuc-kAajTkiUQ74-unsplash.jpg" alt="" class="img-fluid gallery-img" loading="lazy">
+    </div>
+    <div class="col-md-4 mt-3">
+<img src="Assets/main courses/satria-setiawan-5cB0rgz_NR0-unsplash.jpg" alt="" class="img-fluid gallery-img" loading="lazy">
+    </div>
+  <div class="col-md-4 mt-3">
+<img src="Assets/main courses/tadahiro-higuchi-EbzKT7CtoPE-unsplash.jpg" alt="" class="img-fluid gallery-img" loading="lazy">
+    </div>
+
+  </div>
+</section>
+
+<section id="menu">
+<div class="menu-text">
+  <h1 class="text-center text-danger m-5">MENU</h1>
+</div>
+<div class="row ms-5" >
+  <div class="col-10 menu-1 ">
+
+<img src="Assets/appetizers/farhad-ibrahimzade-07RKITgmScQ-unsplash.jpg" alt="" class="img-fluid object-fit-cover" width="300px" height="300px">
+<h3 class="text-center  text-danger m-3">MAIN COURSES </h3>
+
+<ul>
+  <li>Veggie Pasta</li>
+  <li>₹100</li>
+</ul>
+<ul>
+  <li>Grilled Chicken</li>
+  <li>₹290</li>
+</ul>
+<ul>
+  <li>Mutton Briyani</li>
+  <li>₹200</li>
+</ul>
+  </div>
+</div>
+<div class="row ms-5 mt-5" >
+  <div class="col-10 menu-1 ">
+
+<img src="Assets/desserts/serghei-savchiuc-kAajTkiUQ74-unsplash.jpg" alt="" class="img-fluid object-fit-cover"loading="lazy" width="300px" height="300px">
+<h3 class="text-center  text-danger m-3">DESSERTS</h3>
+
+<ul>
+  <li>Cheesecake</li>
+  <li>₹130</li>
+</ul>
+<ul>
+  <li>Chocolate Lava</li>
+  <li>₹170</li>
+</ul>
+<ul>
+  <li>Chocolate Mousse</li>
+  <li>₹185</li>
+</ul>
+  </div>
+</div>
+<div class="row ms-5 mt-5" >
+  <div class="col-10 menu-3 ">
+
+<img src="Assets/beverages/nathan-dumlao-zUNs99PGDg0-unsplash.jpg" class="img-fluid object-fit-cover "  loading="lazy" width="300px" height="300px">
+<h3 class="text-center  text-danger m-3">BEVERAGES</h3>
+
+<ul>
+  <li>Coffee</li>
+  <li>₹30</li>
+</ul>
+<ul>
+  <li>Juice</li>
+  <li>₹70</li>
+</ul>
+<ul>
+  <li>Butter Milk</li>
+  <li>₹70</li>
+</ul>
+  </div>
+</div>
+
+<div class="row ms-5 mt-5" >
+  <div class="col-10 menu-4 ">
+
+<img src="Assets/appetizers/zoshua-colah-WVoLfiKbYBQ-unsplash.jpg" class="img-fluid object-fit-cover"loading="lazy" width="300px" height="300px">
+<h3 class="text-center  text-danger m-3">APPETIZERS</h3>
+
+<ul>
+  <li>Spring Rolls</li>
+  <li>₹130</li>
+</ul>
+<ul>
+  <li>Bruschetta</li>
+  <li>₹230</li>
+</ul>
+<ul>
+  <li>Garlic Bread</li>
+  <li>₹140</li>
+</ul>
+  </div>
+</div>
+</section>
+
+
+<section id="contact">
+  <form action="/contact" method="POST">
+  <div class="row m-5 p-5 contact-row">
+    <div class="col">
+      <h3  class="p-3 text-danger" id="k-"> Contact Us</h3>
+
+
+ 
+      <h4 class="p-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pin-fill" viewBox="0 0 16 16" style="color: #f00;">
+  <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A6 6 0 0 1 5 6.708V2.277a3 3 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354"/>
+</svg>        Address : 123 street,Chennai.</h4>
+
+
+      <h4 class="p-3"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" style="color: #f00;">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg>     Phone: +91 9487369647</h4>
+      <h4 class="p-3"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16" style="color: #f00;">
+  <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+  <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+</svg>         Email: dario462007@gmail.com</h4>
+      <p>We're here to help—reach out anytime for support, feedback, or inquiries. Your satisfaction matters!.</p>
+    </div>
+    <div class="col">
+      <div class="form-group">
+      <input type="text" class="form-control p-3 m-3" placeholder="Your Name">
+      <input type="email" class="form-control p-3 m-3" placeholder="Your Email">
+      <textarea name="" id="" placeholder="Write a Feedback" class="form-control p-3 m-3"></textarea>
+      <a href="#eee"type="button" class="btn btn-danger m-3  p-2" style="width: 100%;">Send Message</a>
+    </div></div>
+  </div>
+  </form>
+</section>
+
+
+<footer>
+<div class="footer">
+
+<ul style="list-style: none;">
+  <li><a href="" class="text-decoration-none">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" style="color: whitesmoke;">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg></a></li>
+
+
+<li><a href="" class="text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16" style="color: whitesmoke;">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg></a></li>
+
+
+<li><a href="" class="text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" style="color: whitesmoke;">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+</svg>
+</a></li>
+
+</ul>
+
+<p class="foot-txt"> Designed & Developed By <span> Dario J</span> </p>
+</div>  
+</footer>
+
+<script>
+  let ticking = false;
+window.addEventListener('scroll', function () {
+  if (!ticking) {
+    window.requestAnimationFrame(function () {
+      // your scroll logic here
+      ticking = false;
+    });
+    ticking = true;
+  }
+});
+function debounce(fn, delay) {
+  let timeout;
+  return (...args) => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => fn(...args), delay);
+  };
+}
+
+</script>
+
+<script src="Assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
